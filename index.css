@@ -39,6 +39,21 @@
   margin-top: 15px;
 }
 
+.third-section {
+  background-color: #cae4db;
+}
+
+.third-section .circle-info-group {
+  display: inline-flex;
+  width: 100%;
+}
+
+.third-section .circle-info-group .circle-info {
+  width: 30%;
+  text-align: center;
+  word-wrap: break-word;
+}
+
 /* //displays none when in mobile view */
 .banking-links {
   display: none;
@@ -53,5 +68,4 @@
   margin-left: 10%;
   display: none;
 }
-
 /*# sourceMappingURL=index.css.map */

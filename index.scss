@@ -44,6 +44,27 @@
             }
         }
    }
+    .third-section{
+        background-color:rgba(202,228,219,1);
+
+        .circle-info-group{
+            display:inline-flex;
+            width:100%;
+
+            
+
+            .circle-info{
+                width:30%;
+                text-align: center;
+                word-wrap: break-word;
+
+                
+            }
+           
+            
+            
+        }
+    }
     /* //displays none when in mobile view */
     .banking-links{
         display:none;
