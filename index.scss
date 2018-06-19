@@ -14,6 +14,10 @@
             float:right;
          }
     }
+.carousel-indicators{
+    
+    position: static;
+}
 
 
     .first-section{
@@ -47,21 +51,49 @@
             }
         }
    }
+.rate-info{
+    width:70%;
+    margin-left:15%;
+    
+}
     .second-section{
         text-align: center;
+        background-color: lightgray;
+
+        .container{
+            padding:20px;
+                .carousel-indicators li{
+                    height: 10px;
+                    width:10px;
+                    border-radius: 50%;
+                    margin-top:10px;
+                    }
+        }
         p{
             font-size: 1.125rem;
         }
+        h5{
+            margin: 0;
+            padding: 10px;
+        }
     }
     
-    .third-section{
+    .circle-section{
         background-color:rgba(202,228,219,1);
         text-align: center;
+
+        .container{
+            padding: 50px 0 50px 0;
+
+            button{
+                margin-top:200px;
+            }
 
         .circle-info-group{
             display:inline-flex;
             width:100%;
             text-align: center;
+            padding-top: 25px;
 
             
 
@@ -73,13 +105,19 @@
 
                 
             }
+            .circle-info p{
+                width:80%;
+                margin:10px 0 0 10%;
+            }
             
            
             
             
         }
+        }
         
     }
+    
     /* //displays none when in mobile view */
     .banking-links{
         display:none;
