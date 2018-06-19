@@ -8,10 +8,22 @@
 
 .hamburger {
   float: left;
+  font-size: 12px;
+  padding: 5px;
 }
 
-.user-nav-links h5 {
+.hamburger i {
+  margin-left: 8px;
+}
+
+.user-nav-links .user-login {
   float: right;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.user-nav-links .user-login i {
+  margin-left: 10px;
 }
 
 .carousel-indicators {
@@ -19,13 +31,27 @@
 }
 
 .first-section {
-  background-color: lightblue;
+  background-image: url("../images/tabletadpic.jpg");
+  background-size: 180% 100%;
+  background-position: 30% 0%;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  background-color: white;
+}
+
+.first-section-background {
+  width: 100%;
+  background-color: rgba(45, 45, 45, 0.5);
+  z-index: 10;
 }
 
 .slogan {
   text-align: center;
-  width: 90%;
-  margin-left: 5%;
+  width: 80%;
+  margin-left: 10%;
   padding-top: 50px;
 }
 
@@ -51,7 +77,6 @@
 
 .second-section {
   text-align: center;
-  background-color: lightgray;
 }
 
 .second-section .container {
@@ -63,6 +88,11 @@
   width: 10px;
   border-radius: 50%;
   margin-top: 10px;
+  background: grey;
+}
+
+.second-section .container .carousel-indicators .active {
+  background: lightgrey;
 }
 
 .second-section p {
@@ -74,13 +104,37 @@
   padding: 10px;
 }
 
+.rate-info {
+  padding: 10px;
+  font-size: 12px;
+}
+
+#third-section {
+  background-image: url("../images/growpic.jpg");
+  background-repeat: no-repeat;
+  background-size: 150% 110%;
+  background-position: 0px 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.third-section-background {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 10;
+}
+
 .circle-section {
-  background-color: #cae4db;
   text-align: center;
 }
 
 .circle-section .container {
   padding: 50px 0 50px 0;
+}
+
+.circle-section .container h4 {
+  width: 80%;
+  margin-left: 10%;
 }
 
 .circle-section .container button {
