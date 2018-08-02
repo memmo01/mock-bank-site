@@ -32,7 +32,8 @@
 
     .first-section{
         background-image:url("../images/tabletadpic.jpg");
-        background-size:180% 100%;
+        // background-size:180% 100%;
+        background-size: cover;
         background-position: 30% 0%;
         background-repeat: no-repeat;
         margin: 0;
